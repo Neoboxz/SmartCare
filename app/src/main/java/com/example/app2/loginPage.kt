@@ -55,8 +55,8 @@ class loginPage : AppCompatActivity() {
                 }
             }
         }
-        val genrateDataButton = findViewById<Button>(R.id.generateData)
-        genrateDataButton.setOnClickListener{
+        val generateDataButton = findViewById<Button>(R.id.generateData)
+        generateDataButton.setOnClickListener{
             generateData()
         }
     }
